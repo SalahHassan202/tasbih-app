@@ -1,55 +1,64 @@
+---
+
 # 🕌 Tasbih App – Flutter Project
 
-A simple **Flutter** app designed to help users keep track of their **tasbih** (counting prayer beads), allowing them to set and track their prayer counts in a user-friendly interface.
+A simple **Flutter** app designed to help users keep track of their **tasbih** (counting prayer beads), allowing them to count prayers after each prayer with a user-friendly interface.
 
 ---
 
 ## 🌟 Features:
 
-### 🧕 User Management:
-- Sign up and log in functionality.
-- Track daily prayer counts.
-- Display previous prayer counts with a clean, organized view.
+### 📿 Prayer Tracking:
 
-### 📊 Prayer Tracking:
-- Increase prayer count by pressing a button.
-- Reset or clear prayer count with ease.
-- Option to set reminders for daily prayers.
+* Track the count of prayers by pressing a button.
+* The app starts with **سبحان الله** (Subhan Allah) and changes to other phrases after a specific count.
+* **الحمد لله** (Alhamdulillah) appears after 34 counts.
+* **الله أكبر** (Allahu Akbar) appears after 67 counts.
+* **لا إله إلا الله** (La ilaha illallah) appears after 100 counts.
+* Reset the counter at any time.
 
-### 🌙 Dark and Light Modes:
-- Toggle between dark and light mode for better visibility based on user preferences.
+### 🧑‍💻 Simple UI:
+
+* Clean, minimalistic design with easy navigation.
+* "Start" button to begin the prayer counting process.
+* Clear button to reset the count.
+* Displays the current prayer phrase and count clearly.
 
 ---
 
 ## 🧠 Concepts Used:
-- **State Management (Provider)**
-- **UI/UX Design**
-- **Authentication (Firebase)**
-- **Local Storage (Shared Preferences)**
-- **Flutter Widgets & Layouts**
+
+* **State Management** with `setState` to update the UI.
+* **Widgets & Layouts** for a responsive UI.
+* **MaterialButton** for interaction (increasing the count and clearing the counter).
 
 ---
 
 ## 🔧 How to Use:
-1. Clone or download the project.
-2. Open the app on an Android/iOS emulator or device.
-3. Choose to sign up or log in.
-4. Start counting prayers by pressing the "Count" button.
-5. View your daily and past prayer counts.
+
+1. Run the app.
+2. Press **إبدأ التسبيح** ("Start Tasbih") to start the prayer count.
+3. Press the floating action button to increase the count.
+4. View the current prayer phrase and count on the screen.
+5. Press **Clear** to reset the counter to zero.
 
 ---
 
 ## 💻 Language & Framework:
-- **Flutter** with **Dart**
-- **Firebase** for authentication and data storage
+
+* **Flutter** with **Dart**
 
 ---
 
 ## 🤝 Contributions:
-Feel free to fork this repo and contribute!  
+
+Feel free to fork this repo and contribute!
 Suggestions, bug fixes, and improvements are always welcome via Issues or Pull Requests.
 
 ---
 
 ## ✍️ Created By:
+
 **Salah Hassan** – Student & Developer 🚀
+
+---
